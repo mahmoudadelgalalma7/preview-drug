@@ -1,0 +1,110 @@
+#button-background {
+  position: relative;
+  width: 385px;
+  height: 200px;
+  border: white;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+#slider {
+  transition: width 0.3s, border-radius 0.3s, height 0.3s;
+  position: absolute;
+  left: -10px;
+  width: 115px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#slider.unlocked {
+  transition: all 0.3s;
+  width: inherit;
+  left: 0 !important;
+  height: inherit;
+  border-radius: inherit;
+}
+.material-icons {
+  color: black;
+  font-size: 50px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.slide-text {
+  color: #3a3d55;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  color: white;
+}
+.bottom a {
+  color: white;
+}
+
+footer {
+  position: relative;
+}
+
+.button-background__img {
+  height: 11rem;
+  pointer-events: none;
+  margin-top: -60px;
+    margin-left: 15px;
+}
+
+.button-background__bg-img {
+  position: absolute;
+  top: 0;
+  width: 565px;
+  transform: scaleX(-1);
+}
+
+
+
+
+@media screen and (max-width : 700px){
+    
+    #button-background {
+    width: 265px;
+    height: 170px;
+}
+    
+   .button-background__img {
+  height: 8rem;
+  pointer-events: none;
+  margin-top: -72px;
+    margin-left: 15px;
+} 
+    
+.button-background__bg-img {
+  width: 380px;
+}
+    
+    #slider {
+  width: 85px;
+  height: 150px;
+}
+    
+    
+}

@@ -1,0 +1,284 @@
+body{
+    background: #065549;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#next{
+background-color: #fff;
+  animation-name: ani;
+  animation-duration: 6s;
+    opacity: 1;
+    overflow: auto;
+}
+
+@keyframes ani {
+  0%   {background-color: #c8d8d5;opacity: 0;overflow: hidden;}
+  20%  {background-color: #a5b1af;opacity: 0;overflow: hidden;}
+  40%  {background-color: #656d6c;opacity: 0;overflow: hidden;}
+    60% {background-color: #f8eb5f;opacity: 0;overflow: hidden;}
+    80% {background-color: #0c534b;opacity: 0;overflow: hidden;}
+  100% {background-color: #fff;opacity: 1;}
+}
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+@font-face {
+   font-family: my;
+   src: url(../fonts/my.ttf);
+}  
+
+
+/*******************************/
+
+header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+header img{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.content{overflow: hidden;display: inline-block;width: 100%;}
+
+.next div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+    font-family: my;
+    margin: 0;
+}
+
+.in div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 1.8;
+    font-family: my;
+    font-size: 40px;
+}
+
+.content h3 span{color: #F8EB5F;}
+
+
+footer{display: inline-block;overflow: hidden;width: 100%;text-align: center;margin: 0;}
+
+.next footer img{width: 22%;display: inline-block;}
+
+
+.in footer{margin-top: 0!important;}
+
+.in footer span{color:#F8EB5F; text-align: center;font-family: my;display:block;font-size: 21px;margin-bottom: 20px;}
+
+
+
+.body{width: 100%;display: inline-block;}
+
+.body img{width: 100%;}
+
+
+
+/**************************************************query**************************************/
+/**************************************************query**************************************/
+
+
+
+
+
+
+@media screen and (max-width : 992px){
+    
+     header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+header img{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+.content{overflow: hidden;display: inline-block;width: 100%;margin-top: 20px;}
+
+
+.in div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    font-family: my;
+    font-size: 26px;
+}
+
+.content h3 span{color: #F8EB5F;}
+
+
+footer{display: inline-block;overflow: hidden;width: 100%;text-align: center;margin: 0;}
+
+.next footer img{width: 27%;display: inline-block;}
+
+
+.in footer{margin-top: 25px;}
+
+.in footer span{color:#F8EB5F; text-align: center;font-family: my;display:block;font-size: 21px;margin-bottom: 20px;font-size: 16px;}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+    
+    header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+header img{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.content{overflow: hidden;display: inline-block;width: 100%;margin-top: 20px;}
+
+.next div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+    font-family: my;
+    margin: 0;
+    font-size: 19px;
+}
+
+.in div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    font-family: my;
+    font-size: 19px;
+}
+
+.content h3 span{color: #F8EB5F;}
+
+
+footer{display: inline-block;overflow: hidden;width: 100%;text-align: center;margin: 0;}
+
+.next footer img{width: 27%;display: inline-block;}
+
+
+.in footer{margin-top: 25px;}
+
+.in footer span{color:#F8EB5F; text-align: center;font-family: my;display:block;font-size: 21px;margin-bottom: 20px;font-size: 16px;}
+
+    
+}
+
+    
+    
+    
+
+
+
+
+
+@media screen and (max-width : 480px) {
+
+header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+header img{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.content{overflow: hidden;display: inline-block;width: 100%;margin-top: 30px;}
+
+.next div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+    font-family: my;
+    margin: 0;
+    font-size: 14px;
+}
+
+.in div h3{
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+    font-family: my;
+    font-size: 14px;
+}
+
+.content h3 span{color: #F8EB5F;}
+
+
+footer{display: inline-block;overflow: hidden;width: 100%;text-align: center;margin: 0;}
+
+.next footer img{width: 55%;display: inline-block;}
+
+
+.in footer{margin-top: 30px;}
+
+.in footer span{color:#F8EB5F; text-align: center;font-family: my;display:block;font-size: 21px;margin-bottom: 20px;font-size: 14px;}
+
+}
+
+.next .body {
+    height:80vh;
+}
+.next .body img {
+    height:100%;
+}
+@media (max-width:300px) {
+    .next .body img {
+        height:40vh;
+    }
+}
+@media (min-width:500px) {
+    .next .body img {
+        height:100vh
+    }
+}
