@@ -31,14 +31,31 @@
     />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://kendo.cdn.telerik.com/2021.2.616/js/kendo.all.min.js"></script>
+    <script src="js/password.js"></script>
+
   </head>
+
   <body class="in">
+
+    <!-- Secret Password -->
+
+      <div class="pass" id="pass-page">
+        <form enctype="text/plain">
+        <label for="pass">كلمة المرور</label>
+        <input id="pass" type="password" placeholder="فضلاً أدخل كلمة المرور" name="password" tabindex="1" required >
+        <span class="hide" id="label">* كلمة المرور الذي أدخلتها غير صحيحة</span>
+      </form>
+        <button onclick="checkPassword()">أدخل</button>
+      </div>
+
+
+<div class="main hide" id="main">
     <header>
       <img src="img/greenbar.png" />
     </header>
 
     <div class="care">
-      <img src="img/الرعايه.png" alt="care">
+      <img src="img/99.png" alt="care">
     </div>
     
 
@@ -65,10 +82,12 @@
         </div>
       </div>
     </footer>
+</div>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
     <script src="js/swipeButtom.js"></script>
+
   </body>
 </html>

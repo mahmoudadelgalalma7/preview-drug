@@ -1,3 +1,111 @@
+#pass-page {
+	width:100%;
+	height:100vh;
+	background-color:#065549;
+	position: absolute;
+	z-index: 9999;
+	background-image:url('../img/pass.png');
+	background-size:100% 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align:right;
+	direction: rtl;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pass-page form {
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#pass-page label {
+	font-size:1.6em;
+	color:#FFF;
+	width:50%;
+	display:block;	
+	position:relative;
+}
+#pass-page label::before{
+	content:"";
+	width:0px;
+	height:0px;
+	border:8px solid #111;
+	border-color:transparent #111 transparent transparent;
+	position:absolute;
+	right:-20px;
+	top:10px;
+
+}
+#pass-page #pass{
+
+width:50%;
+font-size:1.4em;
+background-color:rgba(0,0,0,.2);
+padding:5px 10px;
+border-radius:10px;
+margin-top:10px;
+
+}
+
+#pass-page span {
+color:red;
+text-align: right;
+display:block;
+width:50%;
+font-size:1.2em;
+}
+#pass-page button {
+	margin:20px;
+	padding:10px 40px;
+	font-size:1.2em;
+	color:#FFF;
+	background-color:rgba(0,0,0,.7);
+	border-radius:10px;
+	border:2px solid #065549
+}
+#pass-page button:hover {
+	background-color:#FFF;
+	color:#111;
+	border:2px solid #065549
+}
+
+@media (min-width:992px) {
+	#pass-page form {
+		width:70%;
+	}
+
+}
+@media (max-width:991px) {
+	#pass-page form {
+		width:80%;
+	}
+	#pass-page span,
+	#pass-page #pass,
+	#pass-page label {
+		width:100%;
+	}
+}
+@media (max-width:500px) {
+	#pass-page {
+		background-size:cover;
+		background-position:center;
+	}
+}
+
+
+
+
+.hide{
+	display:none;
+}
+.show {
+	display:block;
+}
+
 #next {
 	background-color: #FFF;
 	animation-name: ani;
@@ -25,6 +133,7 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
+
 }
 
 @keyframes ani {
