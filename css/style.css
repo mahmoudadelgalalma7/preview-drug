@@ -198,7 +198,7 @@ header {
 }
 
 header img {
-	width: 25%;
+	width: 25% !important;
 	margin: 0;
 	padding: 0;
 }
@@ -263,8 +263,8 @@ footer {
 }
 
 .body img {
-	width: initial !important;
-	height:initial !important;
+	width: initial;
+	height:initial;
 }
 
 div#main {
@@ -286,7 +286,7 @@ div#main {
 	}
 
 	header img {
-		width: 40%;
+		width: 40% !important;
 		margin: 0;
 		padding: 0;
 	}
@@ -348,7 +348,7 @@ div#main {
 	}
 
 	header img {
-		width: 60%;
+		width: 60% !important;
 		margin: 0;
 		padding: 0;
 	}
@@ -419,7 +419,7 @@ div#main {
 	}
 
 	header img {
-		width: 60%;
+		width: 60% !important;
 		margin: 0;
 		padding: 0;
 	}
@@ -521,8 +521,8 @@ div#main {
 		position: absolute;
 	}
 	header img {
-		width:100%;
-		height:100%;
+		width:100% !important;
+		height:100% !important;
 	}
 	.care{
 		position:absolute;
