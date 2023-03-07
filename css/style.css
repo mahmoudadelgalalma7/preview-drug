@@ -195,6 +195,7 @@ header {
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
+	direction: ltr;
 }
 
 header img {
