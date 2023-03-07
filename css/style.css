@@ -215,6 +215,7 @@ header img {
 	line-height: 1.6;
 	font-family: my;
 	margin: 0;
+	font-size:2rem;
 }
 
 .in div h3 {
@@ -295,16 +296,18 @@ div#main {
 		overflow: hidden;
 		display: inline-block;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
-	.in div h3 {
+	.in div h3,
+	.next div h3 {
 		color: #fff;
 		text-align: center;
-		line-height: 2;
+		line-height: 1.8 ;
 		font-family: my;
-		font-size: 26px;
+		font-size: 22px ;
 	}
+	
 
 	.content h3 span {
 		color: #f8eb5f;
@@ -357,16 +360,16 @@ div#main {
 		overflow: hidden;
 		display: inline-block;
 		width: 100%;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.next div h3 {
 		color: #fff;
 		text-align: center;
-		line-height: 3;
+		line-height: 2;
 		font-family: my;
 		margin: 0;
-		font-size: 25px;
+		font-size: 18px;
 	}
 
 	.in div h3 {
@@ -428,15 +431,16 @@ div#main {
 		overflow: hidden;
 		display: inline-block;
 		width: 100%;
-		margin-top: 30px;
+		margin-top: 0px;
 	}
 
 	.next div h3 {
 		color: #fff;
 		text-align: center;
-		line-height: 3;
+		line-height: 1.8;
 		font-family: my;
 		margin: 0;
+		font-size: 18px;
 		/* font-size: 14px; */
 	}
 
